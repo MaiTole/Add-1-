@@ -13,6 +13,10 @@
 		47624FC5248540F000B6F867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47624FC4248540F000B6F867 /* Images.xcassets */; };
 		47624FC8248540F000B6F867 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47624FC6248540F000B6F867 /* LaunchScreen.xib */; };
 		47624FD4248540F000B6F867 /* Add_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47624FD3248540F000B6F867 /* Add_1Tests.swift */; };
+		47624FDE2485441300B6F867 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47624FDD2485441300B6F867 /* HVD_Comic_Serif_Pro.otf */; };
+		47624FDF2485441300B6F867 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47624FDD2485441300B6F867 /* HVD_Comic_Serif_Pro.otf */; };
+		47624FE12487EE2300B6F867 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47624FE02487EE2300B6F867 /* String.swift */; };
+		47624FE22487EE2300B6F867 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47624FE02487EE2300B6F867 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 		47624FCD248540F000B6F867 /* Add 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Add 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47624FD2248540F000B6F867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47624FD3248540F000B6F867 /* Add_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_1Tests.swift; sourceTree = "<group>"; };
+		47624FDD2485441300B6F867 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../../Downloads/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
+		47624FE02487EE2300B6F867 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				47624FC4248540F000B6F867 /* Images.xcassets */,
 				47624FC6248540F000B6F867 /* LaunchScreen.xib */,
 				47624FBB248540F000B6F867 /* Supporting Files */,
+				47624FE02487EE2300B6F867 /* String.swift */,
 			);
 			path = "Add 1";
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				47624FBC248540F000B6F867 /* Info.plist */,
+				47624FDD2485441300B6F867 /* HVD_Comic_Serif_Pro.otf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 			files = (
 				47624FC3248540F000B6F867 /* Main.storyboard in Resources */,
 				47624FC8248540F000B6F867 /* LaunchScreen.xib in Resources */,
+				47624FDE2485441300B6F867 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				47624FC5248540F000B6F867 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47624FDF2485441300B6F867 /* HVD_Comic_Serif_Pro.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47624FE12487EE2300B6F867 /* String.swift in Sources */,
 				47624FC0248540F000B6F867 /* ViewController.swift in Sources */,
 				47624FBE248540F000B6F867 /* AppDelegate.swift in Sources */,
 			);
@@ -221,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47624FE22487EE2300B6F867 /* String.swift in Sources */,
 				47624FD4248540F000B6F867 /* Add_1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
